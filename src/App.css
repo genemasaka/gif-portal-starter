@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: #1a202c;
+  background-color: #94b4fa;
   overflow: scroll;
   text-align: center;
 }
@@ -21,15 +21,17 @@
 }
 
 .header {
-  margin: 0;
+  margin-top: 30px;
   font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
   font-weight: bold;
   color: white;
 }
 
 .sub-text {
   font-size: 25px;
-  color: white;
+  font-family: 'IBM Plex Serif', serif;
+    color: white;
 }
 
 .gradient-text {
@@ -63,6 +65,8 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+  font-family:'Courier New', Courier, monospace;
+
 }
 
 .footer-container {
@@ -74,6 +78,8 @@
   bottom: 0;
   left: 0;
   padding-bottom: 45px;
+  font-family:'Courier New', Courier, monospace;
+
 }
 
 .twitter-logo {

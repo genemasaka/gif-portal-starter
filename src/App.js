@@ -116,9 +116,9 @@ const App = () => {
 
       <div className="{walletAdd ? 'authed-container' : 'container'}">
         <div className="header-container">
-          <p className="header">Virgil GIF Portal</p>
+          <p className="header"> &#128330; Virgil Abloh GIF Portal</p>
           <p className="sub-text">
-            View your Virgil GIF collection in the metaverse ✨
+          View your Virgil GIF collection in the metaverse ✨
           </p>
           {!walletAdd && renderNotConnectedContainer()}
           {walletAdd && renderConnectedContainer()}
